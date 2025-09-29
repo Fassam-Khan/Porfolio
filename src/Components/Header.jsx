@@ -23,7 +23,7 @@ const Header = () => {
                 </div>
                 <div className='flex gap-10'>
                     <button className='bg-gradient-to-r from-[#7343d3] to-[#1e0e38] hover:from-[#1e0e38] hover:to-[#7343d3]  p-2 w-[100px] rounded-full font-bold cursor-pointer' >Hire Me!</button>
-                    <button onClick={toggel} class="cursor-pointer screen500:w-[45px] w-[35px] screen500:h-[45px] h-[35px] flex flex-col justify-center items-center screen500:gap-[5px] gap-[4px] bg-primary rounded-full shadow-[1px_1px_3px_0px_#b3b3b3] backdrop-blur-sm"><img src={Menue} alt="" /></button>
+                    <button onClick={toggel} className="cursor-pointer screen500:w-[45px] w-[35px] screen500:h-[45px] h-[35px] flex flex-col justify-center items-center screen500:gap-[5px] gap-[4px] bg-primary rounded-full shadow-[1px_1px_3px_0px_#b3b3b3] backdrop-blur-sm"><img src={Menue} alt="" /></button>
                 </div>
 
 
