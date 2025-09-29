@@ -15,11 +15,13 @@
 body{
   background-color: #0f0715;
   font-family: "Poppins";
+  overflow-x: hidden;
  
 }
 #heading{
   font-family: "Anton";
 }
+
 
 
 

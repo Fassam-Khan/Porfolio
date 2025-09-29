@@ -9,7 +9,7 @@ const About = () => {
             </div>
             <div className='grid md:grid-cols-2 grid-cols-1 gap-6'>
                 {/* left col */}
-                <div>
+                <div data-aos="zoom-in-right">
                     <div>
                         <h1 className=' bg-clip-text text-transparent font-bold text-2xl bg-gradient-to-r from-[#7749d5] to-[#d1c7e0]'>Personal Infos</h1>
                     </div>
@@ -48,7 +48,7 @@ const About = () => {
                     </div>
                 </div>
                 {/* Right Col */}
-                <div className='text-white '>
+                <div data-aos="zoom-in-left" className='text-white '>
                 Hi, I’m Muhammad Fassam, a passionate Frontend Developer currently pursuing my Intermediate studies. I’m self-taught through YouTube and online resources, focusing on building modern, responsive, and user-friendly web applications. I enjoy learning new technologies and continuously improving my skills to grow as a developer.
                 </div>
 

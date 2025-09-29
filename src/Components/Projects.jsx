@@ -11,7 +11,7 @@ const Projects = () => {
                 <span className='uppercase md:text-7xl text-6xl font-bold text-white opacity-12 p-6 z-0'>Project</span>
                 <h2 id='heading' className='text-white md:mt-[-55px] mt-[-50px] md:text-4xl text-4xl uppercase'>My <span className='text-[#683cbd]'>Porfolio</span> </h2>
             </div>
-            <div className='grid md:grid-cols-2 grid-cols-1 gap-6'>
+            <div data-aos="zoom-out" className='grid md:grid-cols-2 grid-cols-1 gap-6'>
                 <div className='border-18 rounded-2xl relative border-[#190d29] '>
                     <img src={Port1} alt="" />
                     <a target='_blank' href='https://nazarbrothers.pk/'><span className='absolute text-white top-0 right-0  p-2 bg-[#190d29da]  backdrop-blur-md'> <img src={Share} alt="" /></span></a>

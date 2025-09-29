@@ -5,15 +5,19 @@ import Javascript from '../assets/javascript.jpg'
 import Reactlogo from '../assets/react.png'
 import Nextjs from '../assets/nextjs.png'
 import Tailwind from '../assets/tailwindcss.png'
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
 
 
 const Skills = () => {
     return (
-        <div className='mt-6 '>
+        <div  className='mt-6  '>
             <div>
                 <h2 className='text-center text-4xl bg-clip-text bg-gradient-to-r from-[#7749d5] text-transparent to-[#cbb0f3] font-bold'>My Skills</h2>
             </div>
-            <div className='flex justify-center items-center gap-6 mt-4 flex-wrap'>
+            <div data-aos="zoom-in" className='flex justify-center items-center gap-6 mt-4 flex-wrap'>
                 <div className='flex flex-col '>
                     <div className='text-white hover:bg-[#341c5e] active:bg-[#341c5e]  transition-all delay-100  border flex justify-center items-center border-[#8d4dd3] w-24 rounded-2xl h-24'><img src={Html} alt="" className='w-20 ' /></div>
                     <span className='text-white text-center '> Html</span>

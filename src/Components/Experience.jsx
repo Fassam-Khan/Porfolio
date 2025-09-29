@@ -4,8 +4,8 @@ const Experience = () => {
     return (
         <div className='text-white mt-10 '>
             <h2 className='text-center text-4xl bg-clip-text bg-gradient-to-r from-[#360d8a] text-transparent to-[#ffffff] font-bold'>My Experience</h2>
-            <div className='hover:bg-gradient-to-r from-[#360d8a]  transition-all delay-1000 p-6 mt-6 grid md:grid-cols-2 grid-cols-1 bg-[#190d29] rounded-2xl group'>
-                <div className='  flex flex-col gap-2  '>
+            <div data-aos="zoom-in-up" className='hover:bg-gradient-to-r from-[#360d8a]  transition-all delay-1000  p-6 mt-6 grid md:grid-cols-2 grid-cols-1 bg-[#190d29] rounded-2xl group'>
+                <div  className='  flex flex-col gap-2  '>
                     <h4 className='text-[#7343d3] text-xl font-bold group-hover:text-white'>9/2025-Present</h4>
                     <p className='text-gray-400'>1 Month</p>
                     <h2 className='text-2xl font-bold'>Wordpress Doveloper</h2>
