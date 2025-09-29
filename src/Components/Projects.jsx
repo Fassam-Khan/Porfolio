@@ -1,5 +1,5 @@
 import React from 'react'
-import Port1 from '../assets/porfolio1.png'
+import Port1 from '../assets/portfolio.png'
 import Share from '../assets/share.svg'
 import Techlinks from '../assets/Techlinks.png'
 import Arrow from '../assets/arrow.svg'
