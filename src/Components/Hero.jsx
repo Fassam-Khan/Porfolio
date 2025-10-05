@@ -14,7 +14,7 @@ const Hero = () => {
         </div>
 
         {/* left Container */}
-        <div className='relative z-10'>
+        <div  className='relative z-10'>
           <h2 className='md:text-3xl text-lg font-bold z-50  '>I'm Fassam Khan</h2>
           <span id='heading' className='md:text-5xl text-[38px] font-bold leading-20  text-[#7444d4] font-Anton text-shadow-[-2px_1px_0px_white]'>A Dynamic Frontend Doveloper</span>
           <p className='text-sm text-gray-500 '>specializing in the React Js</p>
